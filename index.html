@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Kalkulator luas dan keliling persegi</h1> 
+        <h3>Selamat Datang di kalkulator online luas dan keliling persegi</h3>
+        <p>anda dapat menghitung luas dan keliling persegi</p>
+    </header>
+    <center>
+        <h2>LUAS PERSEGI</h2>
+        <img src="assets/persegi.jpg" alt="gambar persegi" width="200">
+        <br>
+        <b>Bujur Sangkar</b>
+    </center>
+    <br>
+    rumus luas persegi yaitu:
+    <br>
+    <center>
+        <b>
+            L= S x S
+        </b>
+    </center>
+    <br>
+    Dimana:
+   <ul>
+    <li>L = luas</li>
+    <li>S = sisi</li>
+   </ul>
+   <label for="sideLength">Panjang Sisi:</label>
+   <input type="number" id="sideLength" placeholder="panjang sisi">
+   <br>
+   <label for="resultArea">Luas Persegi:</label>
+   <input type="text" id="resultArea" readonly>
+   <br>
+   <button onclick="calculate()">Hitung</button>
+        <button class="reset" onclick="reset()">Reset</button>
+
+   <center>
+   <h2>KELILING PERSEGI</h2>
+        <img src="assets/persegi.jpg" alt="gambar persegi" width="200">
+        <br>
+        <b>Bujur Sangkar</b>
+    </center>
+    <br>
+    rumus keliling persegi yaitu:
+    <br>
+    <center>
+        <b>
+            k= 4 x S
+        </b>
+    </center>
+    <br>
+    Dimana:
+   <ul>
+    <li>S = sisi</li>
+   </ul>
+   <label for="sideLength">masukan nilai di tabel atas:</label>
+        
+        <label for="resultPerimeter">Keliling Persegi:</label>
+        <input type="text" id="resultPerimeter" readonly>
+        <br>
+        <button onclick="calculate()">Hitung</button>
+        <button class="reset" onclick="reset()">Reset</button>
+</p>
+</body>
+<script src="js/script.js"></script>
+</html>

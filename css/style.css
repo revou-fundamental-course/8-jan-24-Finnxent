@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background-color:  hsl(226, 76%, 77%);
+     
+}
+
+button {
+    background-color: rgb(95, 95, 160);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+button:hover {
+    background-color: ;
+}
+
+button:active {
+    background-color: aqua;
+    transform: translateY(10px)
+}
+
+#calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+h2 {
+    background-color: blue;
+}
